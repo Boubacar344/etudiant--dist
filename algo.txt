@@ -1,11 +1,13 @@
-algorithme factoriel
-variable : n, i, fact : entier
-debut
-     ecrire("entrer un nombre entier positif : " )
-	 lire (n)
-	 fact <- 1
-	  pour i de 1 a n faire
-	     fact <- fact * i
-		 fin pour
-		 ecrire("le factoriel de " , n," est :", fact) 
-		 fin
+algorithme puissance
+variable : n, m; i; p : entier 
+debut 
+ecrire("entrer la base n :")
+lire(n)
+ecrire("entrer l'exposant m : ")
+lire(m)
+p <- 1
+pour i de 1 a m faire 
+p <- p * n
+fin pour 
+ecrire(n, " puissance ", m, " est : ", p)
+fin

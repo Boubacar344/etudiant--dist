@@ -1,13 +1,25 @@
-algorithme puissance
-variable : n, m; i; p : entier 
-debut 
-ecrire("entrer la base n :")
+algoritheme factorielle
+variable : n, i, f : entier
+debut
+ecrire("entrer un entiern : ")
 lire(n)
-ecrire("entrer l'exposant m : ")
-lire(m)
+f <- 1
+pour i de 1 a n faire 
+f <f * i
+fin pour 
+ecrire ("la factorielle de ", n, " est: ",f)
+fin
+
+algoritheme puissance
+variable : n, m, i, p : entier 
+debut
+ecrire("entrer la base n : " )
+lire (n)
+ecrire("entrerl'exposant m : ")
+lire (m)
 p <- 1
-pour i de 1 a m faire 
+pour i de 1 a m faire
 p <- p * n
 fin pour 
-ecrire(n, " puissance ", m, " est : ", p)
+ecrire(n, " puissance ", m, " est : ",p)
 fin
